@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./adobestock_333446294-seoul-tower-south-korea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ariing-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aav {
+  background-color: white;
+  width: 650px;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 250px;
+  position: relative;
+}
+.korea {
+  width: 50%;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url(./adobestock_333446294-seoul-tower-south-korea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quote {
+  position: absolute;
+  top: 50px;
+  left: 55%;
+}
+.umrah {
+  color: #4d7778;
+}
+.package {
+  color: grey;
+}
+.passenger {
+  color: grey;
+  margin-top: 20px;
+}
+.grey-border {
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.name-ali {
+  display: flex;
+  color: #bebebe;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.number {
+  color: grey;
+  margin-top: 15px;
+}
+.number-border {
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.example-numbers {
+  display: flex;
+  color: #bebebe;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.email {
+  color: grey;
+  margin-top: 15px;
+}
+.email-border {
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.example-email {
+  display: flex;
+  color: #bebebe;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.total-passengers {
+  color: grey;
+  margin-top: 15px;
+}
+.passenger-border {
+  background-color: #f0f0f0;
+  width: 250px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.example-people {
+  display: flex;
+  color: #bebebe;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.policy {
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+}
+h5 {
+  color: gray;
+}
+h5 span {
+  color: #caac56;
+}
+.grey-button {
+  width: 10px;
+  height: 10px;
+  background-color: #f1f1f1;
+  margin-left: 3px;
+}
+.submit-button {
+  position: relative;
+  width: 250px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
